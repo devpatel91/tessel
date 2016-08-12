@@ -1,0 +1,17 @@
+{
+  "name": "qr_reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jsqrcode": "0.0.6",
+    "morgan": "^1.7.0",
+    "png-js": "^0.1.1"
+  }
+}
