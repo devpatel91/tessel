@@ -34,7 +34,7 @@ var qr_reader = function(file){
   p.decode(function(data) {
       qr = new QrCode();
       qr.callback = function(result) {
-           return result;
+           console.log(result);
       }
       qr.decode(p, data);
   });
